@@ -17,7 +17,26 @@
         <a href="characters.html">Major Characters</a>
         <a class="active" href="mini_games.html">Mini Games</a>
     </div>
-    <h1>Maze</h1>
-    <h1>Hang Man</h1>
+    <div class="modal">
+        <div class="content">
+            <h4>Game Over!</h4>
+            <p>The correct word was: random</p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman">
+            <img src="#" draggable="false" alt="hangman-img">
+            <h1>Hangman</h1>
+        </div>
+        <div class="box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">Hint: <b></b></h4>
+            <h4 class="guesses-text">Guesses: <b></b></h4>
+            <div class="keyboard"></div>
+        </div>
+        <script src="words.js" defer></script>
+        <script src="index.js"" defer></script>
+    </div>
 </body>
 </html>
